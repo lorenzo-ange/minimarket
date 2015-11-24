@@ -5,6 +5,10 @@ gem 'rails-api'
 gem 'spring', group: :development
 gem 'sqlite3'
 
+group :development do
+  gem "rails-erd"
+end
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'

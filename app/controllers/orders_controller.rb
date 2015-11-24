@@ -33,22 +33,12 @@ class OrdersController < ApplicationController
   # PATCH/PUT /orders/1.json
   def update
     head :unauthorized
-    # @order = Order.find(params[:id])
-    #
-    # if @order.update(order_params)
-    #   head :no_content
-    # else
-    #   render json: @order.errors, status: :unprocessable_entity
-    # end
   end
 
   # DELETE /orders/1
   # DELETE /orders/1.json
   def destroy
     head :unauthorized
-    # @order.destroy
-    #
-    # head :no_content
   end
 
   private

@@ -19,35 +19,18 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     head :unauthorized
-    # @product = Product.new(product_params)
-    #
-    # if @product.save
-    #   render json: @product, status: :created, location: @product
-    # else
-    #   render json: @product.errors, status: :unprocessable_entity
-    # end
   end
 
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
     head :unauthorized
-    # @product = Product.find(params[:id])
-    #
-    # if @product.update(product_params)
-    #   head :no_content
-    # else
-    #   render json: @product.errors, status: :unprocessable_entity
-    # end
   end
 
   # DELETE /products/1
   # DELETE /products/1.json
   def destroy
     head :unauthorized
-    # @product.destroy
-    #
-    # head :no_content
   end
 
   private
