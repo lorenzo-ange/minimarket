@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'puma'
+
 gem 'rails', '4.2.4'
 gem 'rails-api'
 gem 'spring', group: :development
-gem 'sqlite3'
+gem 'mysql2', '~> 0.3.18'
 
 group :development do
-  gem "rails-erd"
+  gem 'rails-erd'
 end
 
 group :development, :test do
